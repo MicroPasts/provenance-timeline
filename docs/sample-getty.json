@@ -1,0 +1,2195 @@
+{
+  "@context": "https://static.getty.edu/contexts/linked.art/ns/v1.1.0/linked-art.json",
+  "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056",
+  "type": "HumanMadeObject",
+  "_label": "The Temple of Olympian Zeus, Greece (2020.123.1)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300133025",
+      "type": "Type",
+      "_label": "Artwork"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300033973",
+      "type": "Type",
+      "_label": "Drawings",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435444",
+          "type": "Type",
+          "_label": "Classification (Category)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/local/thesaurus/object-record-structure-whole",
+      "type": "Type",
+      "_label": "Object Record Structure: Whole",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-record-structure-type",
+          "type": "Type",
+          "_label": "Object Record Structure Type"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/identifier/0d26c0a2-76fe-5b39-8d9d-68f82e6fe581",
+      "type": "Identifier",
+      "_label": "Accession Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "2020.123.1"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/name/7236e387-46df-50b1-8e4d-f5d8080633bc",
+      "type": "Name",
+      "_label": "Alternate Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417227",
+          "type": "Type",
+          "_label": "Alternate Title"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/titles/primary",
+          "type": "Type",
+          "_label": "Primary Title",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on the `https://data.getty.edu/local/thesaurus/object-title-*` terms instead.",
+            "since": "2020-11-11"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-title-primary",
+          "type": "Type",
+          "_label": "Primary Title"
+        }
+      ],
+      "content": "The Temple of Olympian Zeus, Greece",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/identifier/dor-id",
+      "type": "Identifier",
+      "_label": "Getty DOR ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR ID` (https://data.getty.edu/local/thesaurus/dor-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID"
+        }
+      ],
+      "content": "271328"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/identifier/slug-id",
+      "type": "Identifier",
+      "_label": "Slug Identifier",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/slug-identifier",
+          "type": "Type",
+          "_label": "Slug Identifier"
+        }
+      ],
+      "content": "urn:getty-local:idm:object:slug/109KHT"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/name/7236e387-46df-50b1-8e4d-f5d8080633bc",
+      "type": "Name",
+      "_label": "Preferred Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "The Temple of Olympian Zeus, Greece",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/identifier/tms-id",
+      "type": "Identifier",
+      "_label": "Gallery Systems' TMS ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Gallery Systems' TMS ID` (https://data.getty.edu/local/thesaurus/tms-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID"
+        }
+      ],
+      "content": "260023"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/identifier/dor-uuid",
+      "type": "Identifier",
+      "_label": "Getty DOR UUID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR UUID` (https://data.getty.edu/local/thesaurus/dor-uuid) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID"
+        }
+      ],
+      "content": "cbeb7d35-e11e-426c-b48d-f028a7c3e056"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/citation/3e56890f-c6cc-5392-851a-50d10634ac76",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Christie's, London. <em>British drawings and watercolours 1700-1900</em>. November 9, 1999, lot 103.",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/c138c08c-e172-4608-bb77-c9abcecdd457",
+          "type": "LinguisticObject",
+          "_label": "Christie's, London. British drawings and watercolours 1700-1900. November 9, 1999"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/citation/3e56890f-c6cc-5392-851a-50d10634ac76/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/rights/bee69cf0-a7ef-59ae-bc7d-58d56494f3b4",
+      "type": "LinguisticObject",
+      "_label": "Standard Credit Line",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435418",
+          "type": "Type",
+          "_label": "Credit Line"
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/standard-credit-line",
+          "type": "Type",
+          "_label": "Standard Credit Line"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Gift of Lloyd and Margit Cotsen"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/rights/91d04ece-4c4e-5ebd-9773-182056ed1fa9",
+      "type": "LinguisticObject",
+      "_label": "Source Credit Line",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435418",
+          "type": "Type",
+          "_label": "Credit Line"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404764",
+          "type": "Type",
+          "_label": "Sources (General Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "The J. Paul Getty Museum, Los Angeles, Gift of Lloyd and Margit Cotsen"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/culture/38f91eff-e602-561a-b59a-6e5882b39474",
+      "type": "LinguisticObject",
+      "_label": "Culture Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055768",
+          "type": "Type",
+          "_label": "Culture"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "English"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/344d4257-a6e5-5ffb-82a3-fc66ce843a90",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Having achieved only modest success as an artist throughout his career, Edward Lear sought to make money later in life by reprising versions of iconic and popular views that were affordable and easily marketable. Accounts tell of him lining up sheets of paper in a sort of production line to produce multiple images of the same scene, laying in each part of the composition in sequence. This watercolor of the Temple of Olympian Zeus with the Acropolis in the background is a typical example of that work, and also reflects the relatively small size of these productions. It was made on the basis of larger multiple sketches taken on site in June 1848. These watercolors of his late production can be differentiated from the earlier sketches by their lack of color notes and inscriptions, their completeness of composition (no gaps or areas left incomplete), and the addition of his initials.",
+      "format": "text/markdown",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/344d4257-a6e5-5ffb-82a3-fc66ce843a90/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/344d4257-a6e5-5ffb-82a3-fc66ce843a90/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/9060f223-0098-5e76-b1e2-b0d328b7d0c9",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Having achieved only modest success as an artist throughout his career, Edward Lear sought to make money later in life by reprising versions of iconic and popular views that were affordable and easily marketable. Accounts tell of him lining up sheets of paper in a sort of production line to produce multiple images of the same scene, laying in each part of the composition in sequence. This watercolor of the Temple of Olympian Zeus with the Acropolis in the background is a typical example of that work, and also reflects the relatively small size of these productions. It was made on the basis of larger multiple sketches taken on site in June 1848. These watercolors of his late production can be differentiated from the earlier sketches by their lack of color notes and inscriptions, their completeness of composition (no gaps or areas left incomplete), and the addition of his initials.",
+      "deprecated": {
+        "reason": "Migration from HTML to Markdown for Object Descriptions.",
+        "replacement": "Additionally filter Object Descriptions via the `format` property to select between the 'text/html' or 'text/markdown' variants during the deprecation period.",
+        "since": "2021-06-28"
+      },
+      "format": "text/html",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/9060f223-0098-5e76-b1e2-b0d328b7d0c9/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/description/9060f223-0098-5e76-b1e2-b0d328b7d0c9/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/element",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Element)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-element",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Element)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Unframed",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/element/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-unframed",
+              "type": "Type",
+              "_label": "Dimensions Measured: Unframed"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/element/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/element/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Unframed"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/statement",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Unframed: 9.8 × 19.4 cm (3 7/8 × 7 5/8 in.)",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/statement/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-unframed",
+              "type": "Type",
+              "_label": "Dimensions Measured: Unframed"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/statement/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/statement/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Unframed"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/formatted",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Formatted)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-formatted",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Formatted)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "9.8 × 19.4 cm (3 7/8 × 7 5/8 in.)",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/formatted/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-unframed",
+              "type": "Type",
+              "_label": "Dimensions Measured: Unframed"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/formatted/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/formatted/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Unframed"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/materials/0123ae7e-73f1-59ee-9a35-1a7a25de1311",
+      "type": "LinguisticObject",
+      "_label": "Materials Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Pencil and watercolor heightened with white, on buff paper"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/type",
+      "type": "LinguisticObject",
+      "_label": "Object Type",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Object/Work Type (Category)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Drawing"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/place/created",
+      "type": "LinguisticObject",
+      "_label": "Place Created",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435448",
+          "type": "Type",
+          "_label": "Creation Place Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Greece"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/related/image/8a39be5b-ef9b-5f52-9f1c-03cd7cfd80d6",
+      "type": "LinguisticObject",
+      "_label": "Related Media (Image): Front",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300230425",
+          "type": "Type",
+          "_label": "Information Artifacts"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Images"
+        }
+      ],
+      "content": "Front",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/8a39be5b-ef9b-5f52-9f1c-03cd7cfd80d6",
+          "type": "LinguisticObject",
+          "_label": "Front"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/related/image/8a39be5b-ef9b-5f52-9f1c-03cd7cfd80d6/sequence",
+          "type": "Dimension",
+          "_label": "Related Media Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "type": "LinguisticObject",
+      "_label": "Creative Commons License",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/object/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Rights Statement` (https://data.getty.edu/local/thesaurus/rights-statement) instead.",
+            "since": "2020-11-10"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "No Copyright",
+      "deprecated": {
+        "reason": "Due to improved rights assertion/license metadata modelling this `LinguisticObject` will be removed in a future update.",
+        "replacement": "Obtain rights assertion/license metadata from the `Right` entity under this document's `subject_to` property instead.",
+        "since": "2023-08-16"
+      }
+    }
+  ],
+  "dimension": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/measurement/78abc23d-bf20-55a6-a24a-5055dcf0cd04",
+      "type": "Dimension",
+      "_label": "Height",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055644",
+          "type": "Type",
+          "_label": "Height"
+        }
+      ],
+      "value": 9.842519685,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379098",
+        "type": "MeasurementUnit",
+        "_label": "Centimeters (Measurements)"
+      },
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/measurement/78abc23d-bf20-55a6-a24a-5055dcf0cd04/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-unframed",
+              "type": "Type",
+              "_label": "Dimensions Measured: Unframed"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/measurement/78abc23d-bf20-55a6-a24a-5055dcf0cd04/attribute/sequence",
+          "type": "AttributeAssignment",
+          "_label": "Dimensions Sequence",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/measurement/78abc23d-bf20-55a6-a24a-5055dcf0cd04/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Unframed"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/measurement/0cda46e1-bb50-5c63-960a-6351cfffec8d",
+      "type": "Dimension",
+      "_label": "Width",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055647",
+          "type": "Type",
+          "_label": "Width"
+        }
+      ],
+      "value": 19.3675387351,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379098",
+        "type": "MeasurementUnit",
+        "_label": "Centimeters (Measurements)"
+      },
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/measurement/0cda46e1-bb50-5c63-960a-6351cfffec8d/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-unframed",
+              "type": "Type",
+              "_label": "Dimensions Measured: Unframed"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/measurement/0cda46e1-bb50-5c63-960a-6351cfffec8d/attribute/sequence",
+          "type": "AttributeAssignment",
+          "_label": "Dimensions Sequence",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimension/measurement/0cda46e1-bb50-5c63-960a-6351cfffec8d/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/dimensions/b5fbf43e-dda1-5622-b64f-dc1110f0e1a7/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Unframed"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/sort-number",
+      "type": "Dimension",
+      "_label": "Sort Number",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/sort-number",
+          "type": "Type",
+          "_label": "Sort Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300010269",
+          "type": "Type",
+          "_label": "Positional Attributes"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300192339",
+          "type": "Type",
+          "_label": "Sequences"
+        }
+      ],
+      "value": "  2020   123    1                                                               ",
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300055665",
+        "type": "MeasurementUnit",
+        "_label": "Numbers"
+      }
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.getty.edu/museum/collection/activity/e3f40c66-3fde-5b77-adcc-e7f6e00870df/objects",
+      "type": "Set",
+      "_label": "Objects Exhibited in Landscapes of Myth at Getty Research Institute, Los Angeles",
+      "used_for": [
+        {
+          "id": "https://data.getty.edu/museum/collection/activity/e3f40c66-3fde-5b77-adcc-e7f6e00870df",
+          "type": "Activity",
+          "_label": "Landscapes of Myth at Getty Research Institute, Los Angeles",
+          "motivated_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/exhibition/006bce86-77ca-4450-8b6a-b7317e96f1ff",
+              "type": "PropositionalObject",
+              "_label": "Landscapes of Myth"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://data.getty.edu/media/image/73954f68-6ac8-5447-ad03-c2e88b25c09a",
+      "type": "VisualItem",
+      "_label": "Related Media (Image): 26002301 / 03728e5e9cd7952d8d22362119821d05ceb6fb65",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/media/image/73954f68-6ac8-5447-ad03-c2e88b25c09a/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "03728e5e9cd7952d8d22362119821d05ceb6fb65"
+        },
+        {
+          "id": "https://data.getty.edu/media/image/73954f68-6ac8-5447-ad03-c2e88b25c09a/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "26002301"
+        }
+      ],
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/related/media/8a39be5b-ef9b-5f52-9f1c-03cd7cfd80d6/sequence-assignment",
+          "type": "AttributeAssignment",
+          "_label": "Related Media Sequence Assignment",
+          "used_specific_object": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/related/media/set",
+              "type": "Set",
+              "_label": "Related Media Set for The Temple of Olympian Zeus, Greece (2020.123.1)"
+            }
+          ],
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/related/media/8a39be5b-ef9b-5f52-9f1c-03cd7cfd80d6/sequence-position",
+              "type": "Dimension",
+              "_label": "Related Media Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "format": "application/ld+json"
+    }
+  ],
+  "carries": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/signature/be4511e0-6930-519b-8a09-9718e564300c",
+      "type": "LinguisticObject",
+      "_label": "Object Signatures",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300028705",
+          "type": "Type",
+          "_label": "Signature (Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Recto, lower left, in brown ink: \"EL\""
+    }
+  ],
+  "produced_by": {
+    "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production",
+    "type": "Production",
+    "_label": "Production of Artwork by Edward Lear",
+    "referred_to_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/e12460c0-b059-5a9e-8686-415c184d44cc/producer-description",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Description",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/producer-description",
+            "type": "Type",
+            "_label": "Producer Description",
+            "deprecated": {
+              "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+              "replacement": "Filter on `Producer Description` (https://data.getty.edu/local/thesaurus/producer-description) instead.",
+              "since": "2020-11-10"
+            }
+          },
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-description",
+            "type": "Type",
+            "_label": "Producer Description"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Edward Lear (English, 1812 - 1888)"
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/e12460c0-b059-5a9e-8686-415c184d44cc/producer-name",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Name",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-name",
+            "type": "Type",
+            "_label": "Producer Name"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Edward Lear"
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/e12460c0-b059-5a9e-8686-415c184d44cc/producer-nationality-and-dates",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Nationality & Dates",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/local/thesaurus/nationality-and-dates",
+            "type": "Type",
+            "_label": "Producer Nationality & Dates"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "English, 1812 - 1888"
+      }
+    ],
+    "timespan": {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/timespan",
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/timespan/display",
+          "type": "Name",
+          "_label": "Dates",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Names"
+            }
+          ],
+          "content": "about 1870"
+        }
+      ],
+      "begin_of_the_begin": "1870-01-01T00:00:00",
+      "end_of_the_end": "1870-12-31T23:59:59"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/person/08260efd-0514-4275-ac06-5d0695e86ab5",
+        "type": "Person",
+        "_label": "Edward Lear",
+        "referred_to_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/production/e12460c0-b059-5a9e-8686-415c184d44cc/role-statement",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Role Statement",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/museum/ontology/linked-data/object/artist-maker-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement",
+                "deprecated": {
+                  "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                  "replacement": "Filter on `Artist/Maker Role Statement` (https://data.getty.edu/local/thesaurus/artist-maker-role-statement) instead.",
+                  "since": "2020-11-10"
+                }
+              },
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Artist",
+            "close_match": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025103",
+                "type": "Type",
+                "_label": "Artist"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "current_keeper": [
+    {
+      "id": "https://data.getty.edu/museum/collection/group/ee294bfc-bbe5-42b4-95b2-04872b802bfe",
+      "type": "Group",
+      "_label": "Drawings (Curatorial Department)"
+    }
+  ],
+  "current_location": {
+    "id": "https://data.getty.edu/museum/collection/place/a03fec3c-c7a2-4b29-9995-5eddf3ceb0a4",
+    "type": "Place",
+    "_label": "Storage",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300004465",
+        "type": "Type",
+        "_label": "Storage Spaces"
+      }
+    ],
+    "identified_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/place/a03fec3c-c7a2-4b29-9995-5eddf3ceb0a4/name",
+        "type": "Name",
+        "content": "Storage"
+      }
+    ]
+  },
+  "current_owner": [
+    {
+      "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+      "type": "Group",
+      "_label": "J. Paul Getty Museum, Los Angeles, California",
+      "member_of": [
+        {
+          "id": "http://vocab.getty.edu/ulan/500115987",
+          "type": "Group",
+          "_label": "The J. Paul Getty Trust, Los Angeles, California",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/ulan/500000003",
+              "type": "Type",
+              "_label": "Corporate Bodies"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attributed_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/name/1ed37a35-7748-5522-853b-0c2a4d4dfc63/attribute-assignment",
+      "type": "AttributeAssignment",
+      "_label": "Exhibition Title Attribute Assignment: Landscapes of Myth",
+      "assigned_property": "identified_by",
+      "assigned": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/name/1ed37a35-7748-5522-853b-0c2a4d4dfc63",
+          "type": "Name",
+          "_label": "Alternate Title",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300417193",
+              "type": "Type",
+              "_label": "Titles (General, Names)"
+            }
+          ],
+          "content": "The Temple of Olympian Zeus"
+        }
+      ],
+      "involved": [
+        {
+          "id": "https://data.getty.edu/museum/collection/activity/e3f40c66-3fde-5b77-adcc-e7f6e00870df/objects",
+          "type": "Set",
+          "_label": "Landscapes of Myth at Getty Research Institute, Los Angeles",
+          "used_for": [
+            {
+              "id": "https://data.getty.edu/museum/collection/activity/ff1af3a5-0119-5205-ade2-665b455b3b78",
+              "type": "Activity",
+              "_label": "Landscapes of Myth at Getty Research Institute, Los Angeles",
+              "motivated_by": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/exhibition/006bce86-77ca-4450-8b6a-b7317e96f1ff",
+                  "type": "PropositionalObject",
+                  "_label": "Landscapes of Myth"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://www.getty.edu/art/collection/object/109KHT",
+      "type": "LinguisticObject",
+      "_label": "Homepage for The Temple of Olympian Zeus, Greece (2020.123.1) (HumanMadeObject)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300264578",
+          "type": "Type",
+          "_label": "Web Page"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary"
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/3/888f5484-9f14-4549-8d44-287a1d232cbf",
+      "id": "https://media.getty.edu/iiif/manifest/2/888f5484-9f14-4549-8d44-287a1d232cbf",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/2/context.json\""
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/2/888f5484-9f14-4549-8d44-287a1d232cbf",
+      "id": "https://media.getty.edu/iiif/manifest/3/888f5484-9f14-4549-8d44-287a1d232cbf",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\""
+    }
+  ],
+  "changed_ownership_through": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/0b045241-22d7-5923-8014-2ee0a05d8afa/acquisition",
+      "type": "Acquisition",
+      "_label": "Provenance Acquisition for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Unknown; subsequently sold, Christie's, London November 9, 1999, lot 103, to Lloyd Cotsen.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300157782",
+          "type": "Type",
+          "_label": "Acquisition (Collections Management)"
+        }
+      ],
+      "part_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708",
+          "type": "Activity",
+          "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Unknown",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300055863",
+              "type": "Type",
+              "_label": "Provenance Activity"
+            }
+          ],
+          "identified_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/identifier/9f73dcde-f090-53d7-a076-a29e1032a8cb",
+              "type": "Identifier",
+              "_label": "Provenance Acquisition-Related Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300404621",
+                  "type": "Type",
+                  "_label": "Owner-Assigned Number"
+                },
+                {
+                  "id": "https://data.getty.edu/local/thesaurus/ulan-id",
+                  "type": "Type",
+                  "_label": "ULAN ID"
+                }
+              ],
+              "content": "500125274",
+              "exact_match": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500125274",
+                  "type": "Type",
+                  "_label": "ULAN ID"
+                }
+              ]
+            }
+          ],
+          "referred_to_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/sales-statement/9e56efd6-f344-50f3-aad7-378d5b505708",
+              "type": "LinguisticObject",
+              "_label": "Provenance Sales Statement",
+              "classified_as": [
+                {
+                  "id": "https://data.getty.edu/local/thesaurus/provenance-sale-note",
+                  "type": "Type",
+                  "_label": "Provenance Sale Note",
+                  "deprecated": {
+                    "reason": "Newly available AAT terms replace obsolete local thesaurus terms.",
+                    "replacement": "Filter on `Provenance Sales Statement` (http://vocab.getty.edu/aat/300444172) instead.",
+                    "since": "2021-08-30"
+                  }
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300444172",
+                  "type": "Type",
+                  "_label": "Provenance Sales Statement"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "Brief Text"
+                }
+              ],
+              "content": "sold, Christie's, London November 9, 1999, lot 103, to Lloyd Cotsen.",
+              "assigned_by": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/sales-statement/9e56efd6-f344-50f3-aad7-378d5b505708/attribution",
+                  "type": "AttributeAssignment",
+                  "_label": "Provenance Sales Statement Sequence Attribution",
+                  "assigned_property": "dimension",
+                  "assigned": [
+                    {
+                      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/sales-statement/9e56efd6-f344-50f3-aad7-378d5b505708/attribution/dimension",
+                      "type": "Dimension",
+                      "_label": "Provenance Sales Statement Sequence",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/aat/300010269",
+                          "type": "Type",
+                          "_label": "Positional Attributes"
+                        },
+                        {
+                          "id": "http://vocab.getty.edu/aat/300192339",
+                          "type": "Type",
+                          "_label": "Sequences"
+                        }
+                      ],
+                      "value": 1,
+                      "unit": {
+                        "id": "http://vocab.getty.edu/aat/300055665",
+                        "type": "MeasurementUnit",
+                        "_label": "Numbers"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "timespan": {
+            "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/timespan",
+            "type": "TimeSpan",
+            "_label": "Provenance Activity TimeSpan",
+            "identified_by": [
+              {
+                "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708/timespan/name",
+                "type": "Name",
+                "_label": "Provenance Activity TimeSpan Display Name",
+                "content": "1999"
+              }
+            ],
+            "end_of_the_end": "1999-12-31T23:59:59"
+          },
+          "ends_before_the_start_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a",
+              "type": "Activity",
+              "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Lloyd E. Cotsen"
+            }
+          ]
+        }
+      ],
+      "transferred_title_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204",
+          "type": "Person",
+          "_label": "Unknown",
+          "assigned_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204/attribution",
+              "type": "AttributeAssignment",
+              "_label": "Provenance Actor Presentation Sequence Attribution",
+              "assigned_property": "dimension",
+              "assigned": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204/attribution/dimension",
+                  "type": "Dimension",
+                  "_label": "Provenance Actor Presentation Sequence",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300010269",
+                      "type": "Type",
+                      "_label": "Positional Attributes"
+                    },
+                    {
+                      "id": "http://vocab.getty.edu/aat/300192339",
+                      "type": "Type",
+                      "_label": "Sequences"
+                    }
+                  ],
+                  "value": 1,
+                  "unit": {
+                    "id": "http://vocab.getty.edu/aat/300055665",
+                    "type": "MeasurementUnit",
+                    "_label": "Numbers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/3c5ad560-63a7-5897-8f6b-47cf3819e3a1/acquisition",
+      "type": "Acquisition",
+      "_label": "Provenance Acquisition for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Lloyd E. Cotsen; subsequently by inheritance to Margit Cotsen, 2017.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300438483",
+          "type": "Type",
+          "_label": "Sales"
+        }
+      ],
+      "part_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a",
+          "type": "Activity",
+          "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Lloyd E. Cotsen",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300055863",
+              "type": "Type",
+              "_label": "Provenance Activity"
+            }
+          ],
+          "referred_to_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/statement/dbec43c1-3652-59c3-990b-d33ff8b5b32a",
+              "type": "LinguisticObject",
+              "_label": "Provenance Statement",
+              "classified_as": [
+                {
+                  "id": "https://data.getty.edu/local/thesaurus/provenance-statement",
+                  "type": "Type",
+                  "_label": "Provenance Statement",
+                  "deprecated": {
+                    "reason": "Newly available AAT terms replace obsolete local thesaurus terms.",
+                    "replacement": "Filter on `Provenance Statement` (http://vocab.getty.edu/aat/300444174) instead.",
+                    "since": "2021-08-30"
+                  }
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300444174",
+                  "type": "Type",
+                  "_label": "Provenance Statement"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "Brief Text"
+                }
+              ],
+              "content": "by inheritance to Margit Cotsen, 2017.",
+              "assigned_by": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/statement/dbec43c1-3652-59c3-990b-d33ff8b5b32a/attribution",
+                  "type": "AttributeAssignment",
+                  "_label": "Provenance Statement Sequence Attribution",
+                  "assigned_property": "dimension",
+                  "assigned": [
+                    {
+                      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/statement/dbec43c1-3652-59c3-990b-d33ff8b5b32a/attribution/dimension",
+                      "type": "Dimension",
+                      "_label": "Provenance Statement Sequence",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/aat/300010269",
+                          "type": "Type",
+                          "_label": "Positional Attributes"
+                        },
+                        {
+                          "id": "http://vocab.getty.edu/aat/300192339",
+                          "type": "Type",
+                          "_label": "Sequences"
+                        }
+                      ],
+                      "value": 1,
+                      "unit": {
+                        "id": "http://vocab.getty.edu/aat/300055665",
+                        "type": "MeasurementUnit",
+                        "_label": "Numbers"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/location/dbec43c1-3652-59c3-990b-d33ff8b5b32a",
+              "type": "LinguisticObject",
+              "_label": "Provenance Location",
+              "classified_as": [
+                {
+                  "id": "https://data.getty.edu/local/thesaurus/provenance-location",
+                  "type": "Type",
+                  "_label": "Provenance Location",
+                  "deprecated": {
+                    "reason": "Newly available AAT terms replace obsolete local thesaurus terms.",
+                    "replacement": "Filter on `Provenance Location Statement` (http://vocab.getty.edu/aat/300444175) instead.",
+                    "since": "2021-08-30"
+                  }
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300444175",
+                  "type": "Type",
+                  "_label": "Provenance Location Statement"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "Brief Text"
+                }
+              ],
+              "content": "Malibu, California",
+              "assigned_by": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/location/dbec43c1-3652-59c3-990b-d33ff8b5b32a/attribution",
+                  "type": "AttributeAssignment",
+                  "_label": "Provenance Biography Sequence Attribution",
+                  "assigned_property": "dimension",
+                  "assigned": [
+                    {
+                      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/location/dbec43c1-3652-59c3-990b-d33ff8b5b32a/attribution/dimension",
+                      "type": "Dimension",
+                      "_label": "Provenance Biography Sequence",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/aat/300010269",
+                          "type": "Type",
+                          "_label": "Positional Attributes"
+                        },
+                        {
+                          "id": "http://vocab.getty.edu/aat/300192339",
+                          "type": "Type",
+                          "_label": "Sequences"
+                        }
+                      ],
+                      "value": 1,
+                      "unit": {
+                        "id": "http://vocab.getty.edu/aat/300055665",
+                        "type": "MeasurementUnit",
+                        "_label": "Numbers"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "timespan": {
+            "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/timespan",
+            "type": "TimeSpan",
+            "_label": "Provenance Activity TimeSpan",
+            "identified_by": [
+              {
+                "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a/timespan/name",
+                "type": "Name",
+                "_label": "Provenance Activity TimeSpan Display Name",
+                "content": "1999-2017"
+              }
+            ],
+            "begin_of_the_begin": "1999-01-01T00:00:00",
+            "end_of_the_end": "2017-12-31T23:59:59"
+          },
+          "starts_after_the_end_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/9e56efd6-f344-50f3-aad7-378d5b505708",
+              "type": "Activity",
+              "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Unknown"
+            }
+          ],
+          "ends_before_the_start_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009",
+              "type": "Activity",
+              "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Margit Sperling Cotsen"
+            }
+          ]
+        }
+      ],
+      "transferred_title_from": [
+        {
+          "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204",
+          "type": "Person",
+          "_label": "Unknown",
+          "assigned_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204/attribution",
+              "type": "AttributeAssignment",
+              "_label": "Provenance Actor Presentation Sequence Attribution",
+              "assigned_property": "dimension",
+              "assigned": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/person/25936a78-da08-44b5-b237-9bed6da06204/attribution/dimension",
+                  "type": "Dimension",
+                  "_label": "Provenance Actor Presentation Sequence",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300010269",
+                      "type": "Type",
+                      "_label": "Positional Attributes"
+                    },
+                    {
+                      "id": "http://vocab.getty.edu/aat/300192339",
+                      "type": "Type",
+                      "_label": "Sequences"
+                    }
+                  ],
+                  "value": 1,
+                  "unit": {
+                    "id": "http://vocab.getty.edu/aat/300055665",
+                    "type": "MeasurementUnit",
+                    "_label": "Numbers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "transferred_title_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a",
+          "type": "Person",
+          "_label": "Lloyd E. Cotsen",
+          "assigned_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a/attribution",
+              "type": "AttributeAssignment",
+              "_label": "Provenance Actor Presentation Sequence Attribution",
+              "assigned_property": "dimension",
+              "assigned": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a/attribution/dimension",
+                  "type": "Dimension",
+                  "_label": "Provenance Actor Presentation Sequence",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300010269",
+                      "type": "Type",
+                      "_label": "Positional Attributes"
+                    },
+                    {
+                      "id": "http://vocab.getty.edu/aat/300192339",
+                      "type": "Type",
+                      "_label": "Sequences"
+                    }
+                  ],
+                  "value": 1,
+                  "unit": {
+                    "id": "http://vocab.getty.edu/aat/300055665",
+                    "type": "MeasurementUnit",
+                    "_label": "Numbers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/128944c6-e1fa-5a36-b0b4-3997576086f2/acquisition",
+      "type": "Acquisition",
+      "_label": "Provenance Acquisition for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Margit Sperling Cotsen; subsequently by gift to the J. Paul Getty Museum, 2020.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300444188",
+          "type": "Type",
+          "_label": "Inheritance (Method of Acquisition)"
+        }
+      ],
+      "part_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009",
+          "type": "Activity",
+          "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Margit Sperling Cotsen",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300055863",
+              "type": "Type",
+              "_label": "Provenance Activity"
+            }
+          ],
+          "referred_to_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009/statement/f3b12fd6-86a0-5938-bc81-664025361009",
+              "type": "LinguisticObject",
+              "_label": "Provenance Statement",
+              "classified_as": [
+                {
+                  "id": "https://data.getty.edu/local/thesaurus/provenance-statement",
+                  "type": "Type",
+                  "_label": "Provenance Statement",
+                  "deprecated": {
+                    "reason": "Newly available AAT terms replace obsolete local thesaurus terms.",
+                    "replacement": "Filter on `Provenance Statement` (http://vocab.getty.edu/aat/300444174) instead.",
+                    "since": "2021-08-30"
+                  }
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300444174",
+                  "type": "Type",
+                  "_label": "Provenance Statement"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "Brief Text"
+                }
+              ],
+              "content": "by gift to the J. Paul Getty Museum, 2020.",
+              "assigned_by": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009/statement/f3b12fd6-86a0-5938-bc81-664025361009/attribution",
+                  "type": "AttributeAssignment",
+                  "_label": "Provenance Statement Sequence Attribution",
+                  "assigned_property": "dimension",
+                  "assigned": [
+                    {
+                      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009/statement/f3b12fd6-86a0-5938-bc81-664025361009/attribution/dimension",
+                      "type": "Dimension",
+                      "_label": "Provenance Statement Sequence",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/aat/300010269",
+                          "type": "Type",
+                          "_label": "Positional Attributes"
+                        },
+                        {
+                          "id": "http://vocab.getty.edu/aat/300192339",
+                          "type": "Type",
+                          "_label": "Sequences"
+                        }
+                      ],
+                      "value": 1,
+                      "unit": {
+                        "id": "http://vocab.getty.edu/aat/300055665",
+                        "type": "MeasurementUnit",
+                        "_label": "Numbers"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "timespan": {
+            "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009/timespan",
+            "type": "TimeSpan",
+            "_label": "Provenance Activity TimeSpan",
+            "identified_by": [
+              {
+                "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/f3b12fd6-86a0-5938-bc81-664025361009/timespan/name",
+                "type": "Name",
+                "_label": "Provenance Activity TimeSpan Display Name",
+                "content": "2017-2020"
+              }
+            ],
+            "begin_of_the_begin": "2017-01-01T00:00:00",
+            "end_of_the_end": "2020-12-31T23:59:59"
+          },
+          "starts_after_the_end_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/provenance/dbec43c1-3652-59c3-990b-d33ff8b5b32a",
+              "type": "Activity",
+              "_label": "Provenance Activity for The Temple of Olympian Zeus, Greece (2020.123.1) associated with Lloyd E. Cotsen"
+            }
+          ]
+        }
+      ],
+      "transferred_title_from": [
+        {
+          "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a",
+          "type": "Person",
+          "_label": "Lloyd E. Cotsen",
+          "assigned_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a/attribution",
+              "type": "AttributeAssignment",
+              "_label": "Provenance Actor Presentation Sequence Attribution",
+              "assigned_property": "dimension",
+              "assigned": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/person/dff3a5ff-c86d-47cd-9381-4d8092f7005a/attribution/dimension",
+                  "type": "Dimension",
+                  "_label": "Provenance Actor Presentation Sequence",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300010269",
+                      "type": "Type",
+                      "_label": "Positional Attributes"
+                    },
+                    {
+                      "id": "http://vocab.getty.edu/aat/300192339",
+                      "type": "Type",
+                      "_label": "Sequences"
+                    }
+                  ],
+                  "value": 1,
+                  "unit": {
+                    "id": "http://vocab.getty.edu/aat/300055665",
+                    "type": "MeasurementUnit",
+                    "_label": "Numbers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "transferred_title_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/person/1558096f-1378-484c-ac8d-09782c576cbf",
+          "type": "Person",
+          "_label": "Margit Sperling Cotsen",
+          "assigned_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/person/1558096f-1378-484c-ac8d-09782c576cbf/attribution",
+              "type": "AttributeAssignment",
+              "_label": "Provenance Actor Presentation Sequence Attribution",
+              "assigned_property": "dimension",
+              "assigned": [
+                {
+                  "id": "https://data.getty.edu/museum/collection/person/1558096f-1378-484c-ac8d-09782c576cbf/attribution/dimension",
+                  "type": "Dimension",
+                  "_label": "Provenance Actor Presentation Sequence",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300010269",
+                      "type": "Type",
+                      "_label": "Positional Attributes"
+                    },
+                    {
+                      "id": "http://vocab.getty.edu/aat/300192339",
+                      "type": "Type",
+                      "_label": "Sequences"
+                    }
+                  ],
+                  "value": 1,
+                  "unit": {
+                    "id": "http://vocab.getty.edu/aat/300055665",
+                    "type": "MeasurementUnit",
+                    "_label": "Numbers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://media.getty.edu/iiif/image/9b4cfa72-24ac-4131-8a0b-d972daa921aa/full/full/0/default.jpg",
+      "type": "VisualItem",
+      "_label": "Main View Image (26002301)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://media.getty.edu/iiif/image/9b4cfa72-24ac-4131-8a0b-d972daa921aa/full/full/0/default.jpg/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "03728e5e9cd7952d8d22362119821d05ceb6fb65"
+        },
+        {
+          "id": "https://media.getty.edu/iiif/image/9b4cfa72-24ac-4131-8a0b-d972daa921aa/full/full/0/default.jpg/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "26002301"
+        }
+      ],
+      "deprecated": {
+        "reason": "Please note that in the future, the `representation` property's image, referenced by the `id` property, will be smaller than that currently offered.",
+        "replacement": "Larger images, if needed, will be available via the IIIF Image API endpoints referenced within this document's `shows` property instead.",
+        "since": "2021-03-08"
+      },
+      "format": "image/jpeg"
+    }
+  ],
+  "subject_to": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/licensing",
+      "type": "Right",
+      "_label": "License for Collection Metadata",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "type": "Type",
+          "_label": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/licensing/display-name",
+          "type": "Name",
+          "_label": "License Display Name",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Name"
+            }
+          ],
+          "content": "Public Domain"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/licensing/description",
+          "type": "LinguisticObject",
+          "_label": "License Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ],
+          "content": "No Copyright"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+          "type": "Group",
+          "_label": "J. Paul Getty Museum, Los Angeles, California",
+          "member_of": [
+            {
+              "id": "http://vocab.getty.edu/ulan/500115987",
+              "type": "Group",
+              "_label": "The J. Paul Getty Trust, Los Angeles, California",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500000003",
+                  "type": "Type",
+                  "_label": "Corporate Bodies"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/licensing/display-icon",
+          "type": "VisualItem",
+          "_label": "License Display Icon",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300266210",
+              "type": "Type",
+              "_label": "Display Icon"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "format": "image/svg",
+          "digitally_shown_by": [
+            {
+              "type": "DigitalObject",
+              "_label": "License Display Icon",
+              "access_point": [
+                {
+                  "id": "https://rightsstatements.org/files/icons/NoC.Icon-Only.dark.svg",
+                  "type": "DigitalObject",
+                  "_label": "License Display Icon URL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subject_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/cbeb7d35-e11e-426c-b48d-f028a7c3e056/licensing/acknowledgements",
+          "type": "LinguisticObject",
+          "_label": "Acknowledgements for Collection Metadata",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300026687",
+              "type": "Type",
+              "_label": "Acknowledgements"
+            }
+          ],
+          "content": "Collection metadata provided by the J. Paul Getty Museum. Licensed under CC0 1.0 (http://creativecommons.org/publicdomain/zero/1.0/)."
+        }
+      ]
+    }
+  ]
+}

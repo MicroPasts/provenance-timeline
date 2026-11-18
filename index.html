@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Provenance Timeline — Linked Art Viewer</title>
+  </head>
+  <body class="bg-slate-100 text-slate-900 p-6 sm:p-10 font-sans">
+    <div class="max-w-4xl mx-auto space-y-6">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h1 class="text-xl font-bold">Linked Art Provenance Timeline</h1>
+          <p class="text-sm text-slate-600">Chain-of-custody & gap analyzer for CIDOC-CRM / Linked Art JSON-LD</p>
+        </div>
+        <button
+          id="reload-sample"
+          type="button"
+          class="px-3 py-1.5 text-xs font-semibold rounded-md bg-amber-600 text-white hover:bg-amber-500 transition"
+        >
+          Load Getty Sample
+        </button>
+      </div>
+
+      <div id="timeline"></div>
+    </div>
+
+    <script type="module">
+      import { ProvenanceTimeline } from './src/index.js';
+
+      async function init() {
+        const sample = await fetch('./sample-getty.json').then((r) => r.json());
+
+        const timeline = new ProvenanceTimeline('#timeline', {
+          data: sample,
+          url: sample.id,
+          theme: 'dark',
+          showUrlInput: true,
+        });
+
+        document.getElementById('reload-sample').addEventListener('click', () => {
+          timeline.setData(sample);
+        });
+      }
+
+      init();
+    </script>
+  </body>
+</html>

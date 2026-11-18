@@ -1,0 +1,51 @@
+{
+  "name": "@micropasts/provenance-timeline",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Standalone Linked Art JSON-LD provenance and chain-of-custody timeline viewer",
+  "license": "MPL-2.0",
+  "author": {
+    "name": "Daniel Pett",
+    "email": "info@micropasts.org",
+    "url": "https://github.com/micropasts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micropasts/provenance-timeline.git"
+  },
+  "homepage": "https://micropasts.github.io/provenance-timeline/",
+  "bugs": {
+    "url": "https://github.com/micropasts/provenance-timeline/issues"
+  },
+  "type": "module",
+  "main": "./dist/provenance-timeline.umd.cjs",
+  "module": "./dist/provenance-timeline.js",
+  "exports": {
+    ".": {
+      "import": "./dist/provenance-timeline.js",
+      "require": "./dist/provenance-timeline.umd.cjs"
+    },
+    "./style.css": "./dist/provenance-timeline.css"
+  },
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:docs": "vite build --mode docs"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^6.2.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "fsevents@2.3.3": true
+  }
+}

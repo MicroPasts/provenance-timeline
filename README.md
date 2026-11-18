@@ -12,6 +12,10 @@ Built with zero runtime JavaScript dependencies and bundled Tailwind CSS v4—re
 ### Screenshot of interface
 
 ![A screenshot of the provenance viewer](./images/screenshot.png)
+
+
+> [!TIP]
+> Try this url in the interface for a more complex history: https://data.getty.edu/museum/collection/object/6bf04863-9fb1-40d7-a8d3-fba06b8c1b05
 ---
 
 ## Features
